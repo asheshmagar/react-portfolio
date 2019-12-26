@@ -1,12 +1,12 @@
 import React,{Component} from "react"
-import img4 from "../assets/img/team/img4.jpg"
-import img5 from "../assets/img/team/img5.png"
+import boy from "../assets/img/team/boy.png"
+import girl from "../assets/img/team/girl.png"
 import TeamItem from "../Common/TeamItem"
 import Footer from "./Footer"
 const team=[
-    {title:'Ashesh Magar',subtitle:'Lead Programmer',image:img4},
-    {title:'Menuka Magar',subtitle:'Graphic Designer',image:img5},
-    {title:'Menuka Magar',subtitle:'Manager',image:img5},
+    {title:'Ashesh Magar',subtitle:'Lead Programmer',image:boy},
+    {title:'Menuka Magar',subtitle:'Graphic Designer',image:girl},
+    {title:'Ashesh Magar',subtitle:'Manager',image:boy},
 ]
 
 class Team extends Component{
